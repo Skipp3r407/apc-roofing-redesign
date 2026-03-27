@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 36" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">APC Roofing</title>
+  <polygon fill="#f6c23f" points="16,4 28,18 4,18"/>
+  <rect x="8" y="18" width="16" height="12" rx="1" fill="#f6c23f"/>
+  <text x="36" y="26" fill="#fafafa" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="20" font-weight="800" letter-spacing="-0.03em">APC</text>
+  <text x="88" y="26" fill="#a1a1aa" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="16" font-weight="600" letter-spacing="0.05em">ROOFING</text>
+</svg>

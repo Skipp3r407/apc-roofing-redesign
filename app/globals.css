@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #f4f4f5;
+  --background: #0b0c11;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom range for before/after slider */
+input[type="range"].slider-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  background: #f6c23f;
+  border: 3px solid #0b0c11;
+  cursor: ew-resize;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+input[type="range"].slider-thumb::-moz-range-thumb {
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  background: #f6c23f;
+  border: 3px solid #0b0c11;
+  cursor: ew-resize;
+}
